@@ -14,7 +14,7 @@ sc <- sparkR.init(master="local")
 # initialize sqlContext
 sq <- sparkRSQL.init(sc)
 
-#  load a parquet file into a Spark DataFrame
+#  load a parquet file into a Spark DataFrame (available @ https://dl.dropboxusercontent.com/u/101047187/gp-reg-clean.zip)
 df1 <- parquetFile(sq, "Downloads/opendata/hscic-gpreg/gp-reg-clean")
 
 # print the schema
