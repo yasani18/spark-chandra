@@ -7,6 +7,7 @@ devtools::install_github("apache/spark", ref="master", subdir="R/pkg")
 
 # load the SparkR package
 library('SparkR')
+library('ggplot2')
 
 # initialize sparkContext which starts a new Spark session
 sc <- sparkR.init(master="local")
