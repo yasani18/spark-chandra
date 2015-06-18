@@ -5,7 +5,7 @@
 # install the SparkR package
 devtools::install_github("apache/spark", ref="master", subdir="R/pkg")
 
-# load the SparkR package
+# load the SparkR & ggplot2 packages
 library('SparkR')
 library('ggplot2')
 
